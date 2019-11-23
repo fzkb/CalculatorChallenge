@@ -6895,11 +6895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Faraz\\CalculatorChallenge\\UnitTestCalculator\\UnitTestCalculator.csproj",
+      "projectUniqueName": "C:\\Faraz\\CalculatorChallenge\\CalculatorChallenge\\UnitTestCalculator\\UnitTestCalculator.csproj",
       "projectName": "UnitTestCalculator",
-      "projectPath": "C:\\Faraz\\CalculatorChallenge\\UnitTestCalculator\\UnitTestCalculator.csproj",
+      "projectPath": "C:\\Faraz\\CalculatorChallenge\\CalculatorChallenge\\UnitTestCalculator\\UnitTestCalculator.csproj",
       "packagesPath": "C:\\Users\\faraz\\.nuget\\packages\\",
-      "outputPath": "C:\\Faraz\\CalculatorChallenge\\UnitTestCalculator\\obj\\",
+      "outputPath": "C:\\Faraz\\CalculatorChallenge\\CalculatorChallenge\\UnitTestCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6919,8 +6919,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Faraz\\CalculatorChallenge\\CalculatorChallenge\\CalculatorChallenge.csproj": {
-              "projectPath": "C:\\Faraz\\CalculatorChallenge\\CalculatorChallenge\\CalculatorChallenge.csproj"
+            "C:\\Faraz\\CalculatorChallenge\\CalculatorChallenge\\CalculatorChallenge\\CalculatorChallenge.csproj": {
+              "projectPath": "C:\\Faraz\\CalculatorChallenge\\CalculatorChallenge\\CalculatorChallenge\\CalculatorChallenge.csproj"
             }
           }
         }
