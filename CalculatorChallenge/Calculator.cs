@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CalculatorChallenge
 {
@@ -23,9 +24,12 @@ namespace CalculatorChallenge
 
             if (_numberList.Length > 0)
             {
+
+                string splitOn = @"[\\n,,]+";
+
                 if (_numberList.IndexOf(",") >= 0)
                 {
-                    string[] strNumbers = _numberList.Split(",".ToCharArray());
+                    string[] strNumbers = Regex.Split(_numberList, splitOn); 
 
 
                     _numbers = new int[strNumbers.Length];
@@ -42,7 +46,7 @@ namespace CalculatorChallenge
                     }
 
                 }
-                else if (_numberList.Length > 0)
+                else if (_numberList.IndexOf(",") == 0)
                 {
                     _numbers = new int[1];
 

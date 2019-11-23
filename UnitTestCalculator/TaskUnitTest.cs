@@ -40,6 +40,26 @@ namespace UnitTestCalculator
         }
 
         [TestMethod]
+        public void AddNumbers0()
+        {
+            var numbers = "4,-3";
+            var result = 1;
+
+            Calculator calc = new Calculator(numbers);
+
+            var validate = calc.validateNumber();
+            var sum = 0;
+
+            if (validate == "valid")
+            {
+                sum = calc.addNumber();
+            }
+
+            Assert.AreEqual(result, sum);
+
+        }
+
+        [TestMethod]
         public void AddNumbers2()
         {
             var numbers = ",rrrr";
@@ -104,6 +124,26 @@ namespace UnitTestCalculator
         {
             var numbers = "1,2,3,4,5,6,7,8,9,10,11,12";
             var result = 78;
+
+            Calculator calc = new Calculator(numbers);
+
+            var validate = calc.validateNumber();
+            var sum = 0;
+
+            if (validate == "valid")
+            {
+                sum = calc.addNumber();
+            }
+
+            Assert.AreEqual(result, sum);
+
+        }
+
+        [TestMethod]
+        public void AddNumbersNewDelimeter()
+        {
+            var numbers = @"1\n2,3";
+            var result = 6;
 
             Calculator calc = new Calculator(numbers);
 

@@ -8,3 +8,4 @@ C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\Calcula
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.AssemblyInfo.cs
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.dll
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.pdb
+C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.csprojAssemblyReference.cache
