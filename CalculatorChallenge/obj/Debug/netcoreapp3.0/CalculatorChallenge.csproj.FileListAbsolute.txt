@@ -1,11 +1,10 @@
-C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.csprojAssemblyReference.cache
-C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.AssemblyInfoInputs.cache
-C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.AssemblyInfo.cs
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.exe
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.deps.json
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.runtimeconfig.json
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.runtimeconfig.dev.json
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.dll
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\bin\Debug\netcoreapp3.0\CalculatorChallenge.pdb
+C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.AssemblyInfoInputs.cache
+C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.AssemblyInfo.cs
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.dll
 C:\Faraz\CalculatorChallenge\CalculatorChallenge\obj\Debug\netcoreapp3.0\CalculatorChallenge.pdb

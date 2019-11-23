@@ -1,3 +1,4 @@
+C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\CalculatorChallenge.exe
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -84,12 +85,11 @@ C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\zh-Hans\
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\CalculatorChallenge.dll
+C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\CalculatorChallenge.pdb
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\obj\Debug\netcoreapp3.0\UnitTestCalculator.csprojAssemblyReference.cache
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\obj\Debug\netcoreapp3.0\UnitTestCalculator.AssemblyInfoInputs.cache
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\obj\Debug\netcoreapp3.0\UnitTestCalculator.AssemblyInfo.cs
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\obj\Debug\netcoreapp3.0\UnitTestCalculator.csproj.CopyComplete
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\obj\Debug\netcoreapp3.0\UnitTestCalculator.dll
 C:\Faraz\CalculatorChallenge\UnitTestCalculator\obj\Debug\netcoreapp3.0\UnitTestCalculator.pdb
-C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\CalculatorChallenge.exe
-C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\CalculatorChallenge.dll
-C:\Faraz\CalculatorChallenge\UnitTestCalculator\bin\Debug\netcoreapp3.0\CalculatorChallenge.pdb

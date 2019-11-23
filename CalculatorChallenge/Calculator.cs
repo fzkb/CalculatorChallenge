@@ -27,25 +27,20 @@ namespace CalculatorChallenge
                 {
                     string[] strNumbers = _numberList.Split(",".ToCharArray());
 
-                    if (strNumbers.Length <= 2)
+
+                    _numbers = new int[strNumbers.Length];
+
+                    int counter = 0;
+
+                    foreach (var valu in strNumbers)
                     {
-                        _numbers = new int[strNumbers.Length];
+                        int.TryParse(valu, out tempValue);
 
-                        int counter = 0;
+                        _numbers[counter] = tempValue;
 
-                        foreach (var valu in strNumbers)
-                        {
-                            int.TryParse(valu, out tempValue);
-
-                            _numbers[counter] = tempValue;
-
-                            counter++;
-                        }
+                        counter++;
                     }
-                    else
-                    {
-                        isValid = "You entered more than 2 numbers. Please enter only two numbers (,) seprated.";
-                    }
+
                 }
                 else if (_numberList.Length > 0)
                 {
