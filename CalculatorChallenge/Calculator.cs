@@ -26,13 +26,12 @@ namespace CalculatorChallenge
             if (_numberList.Length > 0)
             {
 
-                string splitOn = @"[\\n,,]+";
+                string splitOn = @"[//,\\n,,,#]";
 
-                if (_numberList.IndexOf(",") >= 0)
+                string[] strNumbers = Regex.Split(_numberList, splitOn);
+
+                if (strNumbers.Length > 0)
                 {
-                    string[] strNumbers = Regex.Split(_numberList, splitOn); 
-
-
                     _numbers = new int[strNumbers.Length];
 
                     int counter = 0;
@@ -41,9 +40,14 @@ namespace CalculatorChallenge
                     {
                         int.TryParse(valu, out tempValue);
 
-                        if (tempValue > 0)
+                        if (tempValue > 0 && tempValue < 1000)
                         {
                             _numbers[counter] = tempValue;
+                        }
+
+                        if (tempValue > 1000)
+                        {
+                            _numbers[counter] = 0;
                         }
 
                         if (tempValue < 0)
@@ -55,15 +59,7 @@ namespace CalculatorChallenge
                         counter++;
                     }
 
-                }
-                else if (_numberList.Contains(",") == false)
-                {
-                    _numbers = new int[1];
-
-                    int.TryParse(_numberList, out tempValue);
-
-                    _numbers[0] = tempValue;
-                }
+                }                
                 else
                 {
                     isValid = "Number list is empty";
