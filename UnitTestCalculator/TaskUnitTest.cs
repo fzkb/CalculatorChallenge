@@ -203,7 +203,7 @@ namespace UnitTestCalculator
         [TestMethod]
         public void AddNumbersNewCharacterCheck2()
         {
-            var numbers = @"//,\n2,ff,100";
+            var numbers = @"//,\n2,ff,200";
             var result = 102;
 
             Calculator calc = new Calculator(numbers);
