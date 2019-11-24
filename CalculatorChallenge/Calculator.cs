@@ -26,7 +26,7 @@ namespace CalculatorChallenge
             if (_numberList.Length > 0)
             {
 
-                string splitOn = @"[//,\\n,,,#]";
+                string splitOn = @"[//,\\n,,,#,*]";
 
                 string[] strNumbers = Regex.Split(_numberList, splitOn);
 
@@ -76,7 +76,7 @@ namespace CalculatorChallenge
         public int addNumber()
         {
             var result = 0;
-            if (_numbers.Length > 0)
+            if (_numbers != null && _numbers.Length > 0)
             {
                 for (int i = 0; i < _numbers.Length; i++)
                 {

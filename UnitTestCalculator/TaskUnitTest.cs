@@ -204,7 +204,7 @@ namespace UnitTestCalculator
         public void AddNumbersNewCharacterCheck2()
         {
             var numbers = @"//,\n2,ff,200";
-            var result = 102;
+            var result = 202;
 
             Calculator calc = new Calculator(numbers);
 
@@ -220,6 +220,26 @@ namespace UnitTestCalculator
 
         }
 
+
+        [TestMethod]
+        public void AddNumbersNewCharacterCheck3()
+        {
+            var numbers = @"//[***]\n11***22***33";
+            var result = 66;
+
+            Calculator calc = new Calculator(numbers);
+
+            var validate = calc.validateNumber();
+            var sum = 0;
+
+            if (validate == "valid")
+            {
+                sum = calc.addNumber();
+            }
+
+            Assert.AreEqual(result, sum);
+
+        }
 
     }
 }
