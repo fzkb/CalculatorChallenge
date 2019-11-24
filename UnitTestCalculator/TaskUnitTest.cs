@@ -43,19 +43,19 @@ namespace UnitTestCalculator
         public void AddNumbers0()
         {
             var numbers = "4,-3";
-            var result = 1;
+            var result = "Please provide +ve integer values";
 
             Calculator calc = new Calculator(numbers);
 
             var validate = calc.validateNumber();
-            var sum = 0;
+            //var sum = 0;
 
-            if (validate == "valid")
-            {
-                sum = calc.addNumber();
-            }
+            //if (validate == "valid")
+            //{
+            //    sum = calc.addNumber();
+            //}
 
-            Assert.AreEqual(result, sum);
+            Assert.AreEqual(result, validate);
 
         }
 
@@ -158,6 +158,8 @@ namespace UnitTestCalculator
             Assert.AreEqual(result, sum);
 
         }
+
+
 
 
 

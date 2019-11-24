@@ -9,6 +9,7 @@ namespace CalculatorChallenge
     {
         private string _numberList;
         private int[] _numbers;
+        private List<int> _negativeNumbers = new List<int>();
 
         public Calculator(string values)
         {
@@ -40,13 +41,22 @@ namespace CalculatorChallenge
                     {
                         int.TryParse(valu, out tempValue);
 
-                        _numbers[counter] = tempValue;
+                        if (tempValue > 0)
+                        {
+                            _numbers[counter] = tempValue;
+                        }
+
+                        if (tempValue < 0)
+                        {
+                            _negativeNumbers.Add(tempValue);
+                            _numbers[counter] = tempValue;
+                        }
 
                         counter++;
                     }
 
                 }
-                else if (_numberList.IndexOf(",") == 0)
+                else if (_numberList.Contains(",") == false)
                 {
                     _numbers = new int[1];
 
@@ -60,6 +70,9 @@ namespace CalculatorChallenge
                 }
 
             }
+
+            if (_negativeNumbers.Count > 0)
+                isValid = "Please provide +ve integer values";
 
 
             return isValid;
