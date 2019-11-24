@@ -241,5 +241,25 @@ namespace UnitTestCalculator
 
         }
 
+        [TestMethod]
+        public void AddNumbersNewCharacterCheck4()
+        {
+            var numbers = @"//[*][!!][r9r]\n11r9r22*hh*33!!44";
+            var result = 110;
+
+            Calculator calc = new Calculator(numbers);
+
+            var validate = calc.validateNumber();
+            var sum = 0;
+
+            if (validate == "valid")
+            {
+                sum = calc.addNumber();
+            }
+
+            Assert.AreEqual(result, sum);
+
+        }
+
     }
 }

@@ -26,9 +26,10 @@ namespace CalculatorChallenge
             if (_numberList.Length > 0)
             {
 
-                string splitOn = @"[//,\\n,,,#,*]";
+                string[] splitOn = new string[] { ",", "#", "!", "*", "r9r", "//", @"\n" };
 
-                string[] strNumbers = Regex.Split(_numberList, splitOn);
+                string[] strNumbers = _numberList.Split(splitOn, StringSplitOptions.RemoveEmptyEntries);
+
 
                 if (strNumbers.Length > 0)
                 {
